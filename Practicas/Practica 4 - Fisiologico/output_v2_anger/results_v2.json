@@ -1,0 +1,46 @@
+{
+  "version": "V2_anger",
+  "metrics": {
+    "accuracy": 0.6947368421052632,
+    "precision": 0.5,
+    "recall": 0.13793103448275862,
+    "f1_macro": 0.5133368662780428,
+    "roc_auc": 0.5047021943573669
+  },
+  "shap_ranking": [
+    {
+      "feature": "hr_deceleration",
+      "mean_abs_shap": 0.048388
+    },
+    {
+      "feature": "frontal_asymmetry",
+      "mean_abs_shap": 0.038477
+    },
+    {
+      "feature": "delta_eeg_af7",
+      "mean_abs_shap": 0.033845
+    },
+    {
+      "feature": "delta_hr",
+      "mean_abs_shap": 0.033533
+    },
+    {
+      "feature": "gsr_change_pct",
+      "mean_abs_shap": 0.031946
+    },
+    {
+      "feature": "delta_rmssd",
+      "mean_abs_shap": 0.029977
+    },
+    {
+      "feature": "lf_hf_baseline",
+      "mean_abs_shap": 0.01268
+    }
+  ],
+  "transactions": {
+    "preprocessing": "0e92693a9f62d2a11d9a1744da00a672fdaa47d532ab76b115a707d772f0d1dd",
+    "training": "de4a42a8f42ee1ef3af7326e8df4d748bc04af69e2715cfc9f5e5f30378435f2",
+    "explainability": "54f4ac9d15440dbb60d331e3fe0759d05e4f7ea88d23d8ef4b8d9676670451bf",
+    "inference": "bc9a6e529844d13bd3f20fb3adcd3fb906eb3bfb764ad126a29834bb0e111ee2"
+  }
+}
